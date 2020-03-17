@@ -1,0 +1,23 @@
+#toggle {
+  width: 250px;
+  height: 30px;
+  background-color: rgb(0, 137, 216);
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+#elem {
+  display: none;
+  background-image: url(../babel/image/elochka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  width: 250px;
+  height: auto;
+  color: rgb(0, 17, 92);
+  box-shadow: 2px 2px 5px 2px rgb(59, 27, 145);
+  border-radius: 8px;
+  font-size: 20px;
+}

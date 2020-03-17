@@ -1,0 +1,66 @@
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("../babel/image/background.jpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(3, 1, 59);
+  max-width: 1024px;
+  height: 682px;
+  margin: 0px auto;
+}
+@media (max-width: 768px) {
+  .zolotooly {
+    display: none;
+  }
+}
+@media (max-width: 709px) {
+  .elementflex2 {
+    display: none;
+  }
+}
+@media (max-width: 367px) {
+  .elementflex3 {
+    display: none;
+  }
+}
+
+.elementflex1 {
+  padding: 10px;
+  margin: 40px;
+}
+.elementflex2 {
+  padding-top: 170px;
+  padding-right: 15px;
+}
+.elementflex3 {
+  padding-left: 100px;
+}
+
+.zolotooly {
+  padding: 0px 7px;
+  border: solid;
+  font-size: 40px;
+  color: rgb(3, 1, 77);
+}
+
+.kosichki {
+  padding: 0px 7px;
+  border: solid;
+  font-size: 40px;
+  color: rgb(3, 1, 77);
+}
+
+.knopka {
+  margin: 0px 5px;
+  border-radius: 12px;
+  border: #fff solid;
+  cursor: pointer;
+}
+.knopka:hover {
+  transition: 0.5s;
+  background-color:  rgb(105, 1, 126);
+}

@@ -1,0 +1,42 @@
+.section {
+     background-image: url(../babel/image/snegki.jpg.jpg);
+  background-size: cover;
+    max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  background-color: white;
+  color: rgb(3, 1, 77);
+}
+.element {
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  border: rgb(3, 1, 77) solid;
+  margin: 20px;
+  padding: 20px;
+}
+@media (max-width: 1024px){
+    .element {
+        width: 100%;
+    }
+}
+@media (max-width: 400px){
+    .element {
+        width: 400px;
+    }
+}
+.widipleteniy {
+  font-size: 30px;
+}
+.galotchk {
+  font-size: 25px;
+}
+.imgsektion {
+  width: 100%;
+}
+.phone {
+  padding-top: 5px;
+  font-size: 25px;
+}

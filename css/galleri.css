@@ -1,0 +1,30 @@
+.section-galleri {
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  background-color: white;
+  color: rgb(3, 1, 77);
+}
+.element-galleri {
+  border-radius: px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 2px 5px 10px 5px rgb(21, 1, 134);
+  margin: 20px;
+  padding: 20px;
+}
+.img-galleri {
+  width: 100%;
+}
+.galerea {
+  padding-bottom: 5px;
+  font-size: 30px;
+  color: rgb(21, 1, 134);
+}
+.cenia {
+  padding-top: 5px;
+  font-size: 25px;
+  color: rgb(21, 1, 134);
+}
